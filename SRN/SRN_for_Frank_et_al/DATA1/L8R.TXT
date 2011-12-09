@@ -1,0 +1,24 @@
+Run            1 
+d              6.8 
+c              5.789999 
+j              5.539994 
+efg            5.284988 
+hi             4.669994 
+a              4.624997 
+b              4.624997 
+opqr           3.810004 
+ab             3.440001 
+klmn           3.390002 
+n              2.959997 
+klm            2.829996 
+hijc           1.625001 
+abopqr         .88 
+klmnhijcd      .83 
+cdab           .4999999 
+klmnhijc       .3249999 
+efghij         .2699999 
+klmncd         .24 
+bklmn          .2300007 
+abklmn         .13 
+hij            .1099998 
+

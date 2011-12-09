@@ -1,0 +1,23 @@
+function outstring = parsesequencestring(instring)
+
+  [temp, len] = size(thischain);
+  j=0;
+  k=0;
+  parsedchain = [];
+  ignore = false;
+  while k < len
+      k=k+1;
+      if strcmp(thischain(k),' ') == 1 || strcmp(thischain(k),'"') == 1 
+          %do nothing
+      elseif strcmp(thischain(k),'(') ==1
+          ignore = true;
+      elseif strcmp(thischain(k),')') == 1
+          ignore = false;
+      else
+          if ~ignore 
+              j=j+1;                     
+              parsedchain(j) = thischain(k);
+          end
+      end
+  end
+  return 

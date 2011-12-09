@@ -1,0 +1,21 @@
+function seq1data = readparticipantchains(filename)
+
+
+if (nargin < 1)
+    cd '/Users/caspar/Dropbox/matlab/TRACX/Caspar_PHD';
+    filename = 'seq1redundancy.csv';
+end
+fid = fopen(filename);
+
+seq1all = textscan(fid,'%s','delimiter',',');
+
+fclose(fid);
+
+[r c] = size(seq1all{:});
+
+
+seq1data = reshape(seq1all{:},5,r/5)';
+
+%remove heading
+seq1data(1,:)=[]; 
+    

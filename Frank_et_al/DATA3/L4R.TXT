@@ -1,0 +1,17 @@
+Run            1 
+hij            12.81999 
+ab             11.90999 
+klmn           11.18999 
+efg            8.819992 
+hijefg         2.045 
+e              1.829998 
+fg             1.14 
+abklmn         1.120001 
+hijklmnab      1 
+k              .8700026 
+hijklmn        .595 
+abklmnhijefg   .2500001 
+hijefgab       .1750001 
+efgklmn        .1300001 
+abefg          4.500141E-02 
+

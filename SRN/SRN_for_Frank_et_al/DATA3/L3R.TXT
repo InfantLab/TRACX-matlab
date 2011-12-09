@@ -1,0 +1,16 @@
+Run            1 
+ab             17.17999 
+efg            11.36498 
+klmn           8.829982 
+klmnefg        4.824986 
+klmnab         1.879997 
+abklmnefg      .93 
+efgabefg       .86 
+klmnefgab      .8300006 
+efgklmnefgklmn               .6300001 
+n              .5000013 
+efgklmn        .4900001 
+abklmnefgklmn  .4850002 
+abklmnab       .1500002 
+klm            4.999783E-02 
+
