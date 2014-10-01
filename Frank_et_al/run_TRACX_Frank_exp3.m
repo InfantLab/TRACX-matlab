@@ -64,7 +64,7 @@ for run_no = 1:NO_OF_RUNS
       sentence_len = length(char_str);
 
       epoch_ctr = 0;
-      word_list = unique(sentence_cell_array);
+      %word_list = unique(sentence_cell_array);
 
       for epoch = 1:MAX_EPOCHS        % sentence level
         In_t1 = bipolar_array(1,:);
